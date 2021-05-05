@@ -14,14 +14,11 @@ import java.util.Set;
 @NoArgsConstructor
 @Entity
 @Data
-@Table(name = "user")
+@Table(name = "users")
 public class User {
 
     @Id
     private Long id;
     private String name;
     private String email;
-
-    @OneToMany
-    private Set<Category> category;
 }
