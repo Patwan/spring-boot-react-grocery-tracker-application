@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Table(name = "category")
 public class Category {
 
-    private long id;
+    private Long id;
 
     private String name;
 
